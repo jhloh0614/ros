@@ -74,7 +74,7 @@ generate_messages(
   std_msgs
 )
 
-catkin_install_python(PROGRAMS scripts/talker.py scripts/listener.py scripts/assignment1_talker.py scripts/assignment1_listener.py
+catkin_install_python(PROGRAMS scripts/talker.py scripts/listener.py scripts/assignment1_talker.py scripts/assignment1_listener.py scripts/assignment2_publish_sentence.py scripts/assignment2_sound_play.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
