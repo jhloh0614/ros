@@ -10,6 +10,8 @@ def callback(data):
 def listener():
     rospy.init_node('listener', anonymous=False)
     rospy.Subscriber('chatter', String, callback=callback)
+
+    # keeps python from exiting until this node is stopped.
     rospy.spin()
 
 
